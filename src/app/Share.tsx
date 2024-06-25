@@ -4,6 +4,7 @@ import React from "react";
 import "../app/share.css"
 import Icon_1  from "./icon_1";
 import Modal from "react-modal"
+import { ClipboardIcon, FacebookIcon, InstagramIcon, TwitterIcon } from "./Share_2";
 
 // @refresh reset
 export const Share = () => {
@@ -54,8 +55,11 @@ export const Share = () => {
                 <div className="flex flex-end w-full">
                         <div className="w-full flex flex-end justify-end mx-2 my-1 p-2">
                             <button onClick={_ => setModal(_ => false)} className="button-1">Close</button>
+                            <button onClick={_ => setModal(_ => false)} className="button-1 ml-2"><FacebookIcon/></button>
+                            <button onClick={_ => setModal(_ => false)} className="button-1 ml-2"><InstagramIcon/></button>
+                            <button onClick={_ => setModal(_ => false)} className="button-1 ml-2"><TwitterIcon/></button>
                             <button onClick={_ => setModal(_ => false)} className="button-1 ml-4">
-                               {selected == "Business" ? "Share" :  "Generate URL and copy"}
+                                <ClipboardIcon/>
                             </button>
                         </div>
                     </div>

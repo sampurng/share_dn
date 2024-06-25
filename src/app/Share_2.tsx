@@ -249,7 +249,7 @@ export const Share_2 = () => {
     )
 }
 
-const ClipboardIcon = () => {
+export const ClipboardIcon = () => {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -269,7 +269,7 @@ const ClipboardIcon = () => {
   }
   
   
-  const FacebookIcon = () => {
+export const FacebookIcon = () => {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -288,7 +288,7 @@ const ClipboardIcon = () => {
   }
   
   
-  const InstagramIcon = () => {
+export const InstagramIcon = () => {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -309,7 +309,7 @@ const ClipboardIcon = () => {
   }
   
   
-  const ShareIcon = () => {
+export const ShareIcon = () => {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -330,7 +330,7 @@ const ClipboardIcon = () => {
   }
   
   
-  const TwitterIcon = () => {
+export const TwitterIcon = () => {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
