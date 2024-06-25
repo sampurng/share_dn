@@ -2,7 +2,7 @@
 
 import React from "react";
 import "../app/share.css"
-import Icon  from "./icon";
+import Icon_1  from "./icon_1";
 import Modal from "react-modal"
 
 // @refresh reset
@@ -17,7 +17,7 @@ export const Share = () => {
             setModal(_ => true)
             console.log("pressed")}} className="button-1">
             <div className="flex direction-row justify-between">
-                <Icon />
+                <Icon_1 />
                 <p className="mx-1">Share</p>
             </div>
         </button>
